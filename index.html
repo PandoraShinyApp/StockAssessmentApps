@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Welcome to Pandora toolbox</title>
+  <style type="text/css">
+    body, html {
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #F5F5F5;
+      color: #114;
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    #titleBar {
+      height: 80px;
+      background-color: #3475b4;
+      overflow: hidden;
+      border-bottom: 1px solid #3475b3;
+      -moz-box-shadow:    0px 0px 10px 3px #BBC;
+      -webkit-box-shadow: 0px 0px 10px 3px #BBC;
+      box-shadow:         0px 0px 10px 3px #BBC;
+    }
+    #titleBar #container {
+      margin-top: 14px;
+    }
+    #titleBar h1 {
+      margin: 0 auto .5em auto;
+      padding: .2em;
+      color: #EEE;
+      text-align: center;
+    }
+    #intro {
+      background-color: #DDD;
+      margin: 1em 1em 0 1em;
+      padding: .75em;
+      text-align: center;
+      border: 1px solid #CCC;
+      font-size: 18px;
+    }
+    #intro p {
+      margin: .3em 0 .3em 0;
+    }
+    #outer-content {
+      max-width: 910px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #content {
+      margin: 1em auto 1em auto;
+      float: left;
+    }
+    #main{
+      margin-left: auto;
+      margin-right: auto;
+      float: left;
+      line-height: 24px;
+      max-width: 910px;
+      text-align:justify;
+    }
+    <!--
+    #shiny{
+      float: left;
+      width: 305px;
+      margin-left: -330px;
+      padding-left: 20px;
+      border-left: 1px solid #AAA;
+    }
+    #shiny iframe {
+      margin-top: 30px;
+    }
+    -->
+    .caption{
+      font-size: 13px;
+    }
+    .button {
+      background-color: #3475b4;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 24px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      transition-duration: 0.4s;
+    }
+    .button:hover {
+      background-color: #3475b4; /* Blue */
+      color: white;
+    }
+    code {
+      background-color: #E5E5E5;
+      border: 1px solid #AAA;
+      -webkit-border-radius: 3px;
+      -khtml-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      padding: 0 .5em 0 .5em;
+    }
+  </style>
+</head>
+<body>
+  <div id="titleBar">
+    <div id="container">
+      <h1>Pandora Toolbox</h1>
+    </div>
+  </div>
+  <div id="outer-content">
+    <div id="intro">
+      <p> Stock assessment shiny apps <strong>Beta version</strong> </p>
+    </div>
+    <div id="content">
+      <div id="main">
+
+        <div style = "text-align: center">
+        <a href="./sample-apps/spict/" class="button" align = "left">SPiCT app</a>
+
+        <a href="./sample-apps/a4a/" class="button" align = "right">a4a app</a>
+        </div>
+
+        <h3> Overview </h3>
+
+        <p> Through this web application the user can implement two fisheries stock assessment models/approaches: </p>
+        <ul>
+          <li> the stochastic surplus production model in continuous time (SPiCT) [1] and </li>
+          <li> the statistical catch-at-age stock assessment model developed as part of the assessment for all (a4a) [2].  </li>
+        </ul>
+        <p> The SPiCT application includes the two time-variant productivity extensions, allowing for gradually varying productivity or regimes of productivity [3].
+          The a4a assessment is modified to include environmental variability on recruitment though an external environmental index provided by the user.  </p>
+        <p> The application was developed in Shiny under the R language programming environment [4, 5].</p>
+
+        <h3> Documentation </h3>
+
+        <p><a href="https://flr-project.org/FLa4a/articles/sca.pdf">a4a manual</a></p>
+        <p><a href="https://github.com/DTUAqua/spict/raw/master/spict/inst/doc/spict_handbook.pdf ">SPiCT manual</a></p>
+
+        <h3> Help files </h3>
+
+        <p> Test files, source code and official manuals for both approaches can be found in
+          <a href="https://cloudfs.hcmr.gr/index.php/s/yRqWk0zTTOCWbZT ">HCMR's cloud</a> </p>
+
+        <h3> Acknowledgments </h3>
+
+        <p> This application is part of the PANDORA’s toolbox developed as part of the
+          <a href="https://www.pandora-fisheries-project.eu/"> PANDORA project</a> </p>
+
+        <h3> How to cite </h3>
+
+        <h3> Developers </h3>
+        <p> Contacts: Danai Mantopoulou-Palouka, Maria Kikeri, Vasiliki Sgardeli, Dimitrios Damalas danaim@hcmr.gr, vsgard@hcmr.gr, shark@hcmr.gr   </p>
+
+        <h3> References </h3>
+        <ol>
+          <li> Pedersen, M.W., Berg, C.W. (2017). A stochastic surplus production model in continuous time.
+            <em>Fish and Fisheries</em>, 18: 226-243. </li>
+          <li> Jardim, E., Millar, C.P., Mosqueira, I., Scott, F., Osio, G.C., Ferretti, M., Alzorriz, N., Orio, A. (2015).
+            What if stock assessment is as simple as a linear model? The a4a initiative. <em>ICES Journal of Marine Science</em>, 72: 232-236</li>
+          <li> Mildenberger, T.K., Berg, C.W., Pedersen, M.W., Kokkalis, A., Nielsen, J.R. (2020).
+            Time-variant productivity in biomass dynamic models on seasonal and long-term scales, <em>ICES Journal of Marine Science</em>, 77(1): 174-187.</li>
+          <li>  R Core Team (2020). R: A language and environment for statistical computing. R Foundation for
+Statistical Computing, Vienna, Austria. URL <a href="https://www.R-project.org/"> https://www.R-project.org/ </a>.</li>
+          <li> Chang, W., Cheng, J., Allaire, J.J., Xie, Y., McPherson, J. (2020). shiny: Web Application
+Framework for R. R package version 1.5.0. <a href="https://CRAN.R-project.org/package=shiny">https://CRAN.R-project.org/package=shiny </a> </li>
+        </ol>
+
+        <h3> Disclaimer </h3>
+
+        <p> This software is free to use for educational and demonstration purposes
+           only and comes with absolutely no warranty.
+           It is distributed under <a href="https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12">EUPL- 1.2 license</a>.</p>
+
+
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
