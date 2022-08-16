@@ -3,8 +3,11 @@
 **Overview**
 
 Through this application the user can implement two fisheries stock assessment models/approaches: 
+
 •	the stochastic surplus production model in continuous time (SPiCT) [1] and 
+
 •	the statistical catch-at-age stock assessment model developed as part of the assessment for all (a4a) [2]. 
+
 The SPiCT application includes the two time-variant productivity extensions, allowing for gradually varying productivity or regimes of productivity [3]. The a4a assessment is modified to include environmental variability on recruitment though an external environmental index provided by the user. 
 The application was developed in Shiny under the R language programming environment [4, 5].
 
