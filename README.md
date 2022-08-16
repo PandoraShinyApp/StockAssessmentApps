@@ -26,10 +26,14 @@ Contacts: Danai Mantopoulou-Palouka, Maria Kikeri, Vasiliki Sgardeli, Dimitrios 
 **References**
 
 [1] Pedersen, M.W., Berg, C.W. (2017). A stochastic surplus production model in continuous time. Fish and Fisheries, 18: 226-243.
+
 [2] Jardim, E., Millar, C.P., Mosqueira, I., Scott, F., Osio, G.C., Ferretti, M., Alzorriz, N., Orio, A. (2015). What if stock assessment is as simple as a linear model? The a4a initiative. ICES Journal of Marine Science, 72: 232-236.
+
 [3] Mildenberger, T.K., Berg, C.W., Pedersen, M.W., Kokkalis, A., Nielsen, J.R. (2020). Time-variant productivity in biomass dynamic models on seasonal and long-term scales, ICES Journal of Marine Science, 77(1): 174-187.
+
 [4] R Core Team (2020). R: A language and environment for statistical computing. R Foundation for
 Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+
 [5] Chang, W., Cheng, J., Allaire, J.J., Xie, Y., McPherson, J. (2020). shiny: Web Application
 Framework for R. R package version 1.5.0. https://CRAN.R-project.org/package=shiny
 
