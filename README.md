@@ -9,7 +9,7 @@ Through this application the user can implement two fisheries stock assessment m
 •	the statistical catch-at-age stock assessment model developed as part of the assessment for all (a4a) [2]. 
 
 The SPiCT application includes the two time-variant productivity extensions, allowing for gradually varying productivity or regimes of productivity [3]. The a4a assessment is modified to include environmental variability on recruitment though an external environmental index provided by the user. 
-The application was developed in Shiny under the R language programming environment [4, 5].
+The application was developed in Shiny under the R language programming environment [4, 5] and is accessible at: http://shiny.her.hcmr.gr:50500/.
 
 **Documentation**
 
@@ -21,7 +21,7 @@ Help files Test files, source code and official manuals for both approaches can 
 
 **Acknowledgments**
 
-This application is part of the PANDORA’s toolbox developed as part of the PANDORA project https://www.pandora-fisheries-project.eu/
+This application is part of the PANDORA’s toolbox (https://www.ices.dk/pandora/Pages/default.aspx) developed as part of the PANDORA project https://www.pandora-fisheries-project.eu/
 
 **Developers**
 
