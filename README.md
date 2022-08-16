@@ -15,6 +15,7 @@ The application was developed in Shiny under the R language programming environm
 
 a4a manual:
 https://fishreg.jrc.ec.europa.eu/documents/75108/0/Stock+assessment+and+management+advice+methods/af5931b5-b59b-46f5-8997-66ea0b261ca3?version=1.1 
+
 SPiCT manual: https://github.com/DTUAqua/spict/raw/master/spict/inst/doc/spict_handbook.pdf 
 Help files Test files, source code and official manuals for both approaches can be found  https://cloudfs.hcmr.gr/index.php/s/yRqWk0zTTOCWbZT 
 
