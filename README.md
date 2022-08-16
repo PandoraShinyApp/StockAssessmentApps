@@ -44,4 +44,4 @@ Framework for R. R package version 1.5.0. https://CRAN.R-project.org/package=shi
 
 **Disclaimer**
 
-This software is free to use for educational and demonstration purposes only and comes with absolutely no warranty. It is distributed under EUPL- 1.2 license.
+This software is free to use for educational and demonstration purposes only and comes with absolutely no warranty. It is distributed under the MIT license.
